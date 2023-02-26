@@ -1,4 +1,4 @@
-//úkol 1
+//úkol 1 Parsování data
 
 const parseDate = (date) => {
 return {
@@ -10,7 +10,7 @@ return {
 
 //const result = parseDate('25.02.2023')
 
-//úkol 2
+//úkol 2 Formátování data
 
 const formatDate = ({day, month, year}) => {
    return String(day).padStart(2, '0') + "." + String(month).padStart(2,'0') + "." + String(year)  
@@ -32,7 +32,7 @@ const formatDate = ({day, month, year}) => {
 }
 console.log(formatDate({ day: 6, month: 4, year: 2021 }))*/
 
-//úkol 3 s bonusem
+//úkol 3 s bonusem Python zaokrouhlování
 
 const round = (x) => {
   const y = Math.trunc(x)
